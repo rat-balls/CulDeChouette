@@ -15,11 +15,14 @@ run/main_scene="res://Scenes/quiz.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+StaticData="*res://Singletons/staticData.gd"
+
 [display]
 
 window/size/viewport_width=576
 window/size/viewport_height=1024
-window/size/mode=4
 window/stretch/mode="viewport"
 window/stretch/aspect="keep_width"
 window/handheld/orientation=1

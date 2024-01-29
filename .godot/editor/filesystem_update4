@@ -1,2 +1,9 @@
 res://Scenes/quiz.tscn
+res://Scenes/quiz.gd
 res://rules.tres
+res://Singletons/static_data.gd
+res://Singletons/staticData.gd
+res://Data/staticData.json
+res://Scenes/checkBox.tscn
+res://Data/checkBox.tscn
+res://Scenes/radioGroup.gd
