@@ -1,0 +1,30 @@
+<string-array name="ruleNames">
+	<item>★%La Grelottine</item>
+</string-array>
+
+<string name="rule_grelottine">
+Lorsqu&apos;un joueur réalise un Néant, il gagne une Grelottine. Il peut alors défier un autre joueur qui possède une Grelottine, entre le tour de n&apos;importe quels joueurs. Le jeu reprend ensuite normalement.
+
+[Si on ne joue pas avec les scores négatifs, pour obtenir une Grelottine, le Néant doit être réalisé lorsque le score du joueur concerné est supérieur ou égal à 30 pts. Si un joueur possédant une Grelottine redescend en dessous de 30 pts, il perd sa Grelottine.]
+
+Pour défier un autre joueur possédant une Grelottine, le grelottin doit désigner sa cible du doigt en criant “ Grelottine ! ”. Si deux joueurs crient l&apos;annonce en même temps, c&apos;est celui qui a le plus petit score des deux qui devient grelottin. En cas d&apos;égalité, les joueurs se départagent par le lancer d&apos;un dé (le plus petit score l&apos;emporte). La Grelottine est non cumulable.
+
+Le grelottin choisit alors une combinaison que le joueur défié doit réaliser. Il a le choix entre les combinaisons suivantes : Chouette, Velute, Chouette-Velute, Cul De Chouette ou Sirop-Grelot (Le Sirop-Grelot étant un Cul De Chouette obligatoirement réalisé avec Sirotage). Lors d&apos;un Sirop-Grelot, le Sirotage est indépendant des deux lancers, et si le défié réalise une Chouette lors de son deuxième lancer, le Sirotage est obligatoire, et l&apos;Attrape-Oiseau interdit. La combinaison peut-être réalisée avec n&apos;importe(s) quelle(s) valeur(s).
+
+Il n&apos;est pas possible de lancer un défi Grelottine si son propre score est inférieur ou égal à 0. Il n&apos;est de plus pas possible de cibler un joueur dont le score est inférieur ou égal à 0. Si ces règles ne sont pas respectées mais que le joueur annonce quand même, il y a Bévue, le défi n&apos;est pas lancé et le joueur conserve sa Grelottine. [Si on ne joue pas avec les scores négatifs, le score minimal pour qu&apos;il y ait défi est de 30 points.]
+
+C&apos;est le grelottin qui décide combien de points il met en jeu en respectant les mises suivantes :
+
+Si le défi porte sur une Chouette : 33% du Minimum du score des deux joueurs.
+Si le défi porte sur une Velute : 25% du Minimum du score des deux joueurs.
+Si le défi porte sur un Cul De Chouette : 12% du Minimum du score des deux joueurs.
+Si le défi porte sur une Chouette-Velute : 6% du Minimum du score des deux joueurs.
+Si le défi porte sur un Sirop-Grelot : 3% du Minimum du score des deux joueurs.
+Lors du calcul du nombre maximal de points pouvant être mis en jeu, on ne tient pas compte des décimales (on arrondit à l&apos;unité supérieure). En cas de Bévue entre l&apos;annonce du défi et l&apos;annonce de la mise, le score précédant la Bévue est celui pris en compte et le joueur doit effectuer une nouvelle mise. Pour miser le score maximal sans calculer précisément, le joueur peut annoncer "Max !" : le scribe se chargera de mettre à jour les scores une fois l&apos;issue connue.
+
+Ex : Le joueur 1 possède 220pts ; Le joueur 2 possède 124pts. Joueur 1 lance un défi grelottine sur une Chouette au joueur 2, il peut parier au maximum 42 pts ce qui correspond à 33% de 124 (33% du minimum du score des deux joueurs, arrondi au supérieur).
+
+Le joueur défié a alors deux lancers pour réaliser la combinaison demandée et peut conserver les dés de son choix entre les deux lancers. Les deux lancers sont obligatoires, sauf en cas de réussite au premier lancer, auquel cas le défié doit obligatoirement s&apos;arrêter.
+
+Si le joueur défié remporte le défi, il gagne les points mis en jeu et le grelottin les perd. S&apos;il échoue, c&apos;est l&apos;inverse qui se produit. Cependant, sauf cas particulier, le joueur défié gagne les points de la combinaison qu&apos;il a réalisée, et la combinaison prend effet.
+</string>

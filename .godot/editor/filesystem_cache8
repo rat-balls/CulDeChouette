@@ -1,0 +1,11 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1706359300
+icon.svg::CompressedTexture2D::4082917212561447654::1706282952::1706282963::1::::<><>::
+Rules.xml::TextFile::-1::1706356209::0::1::::<><>::
+::res://Art/::1706313044
+::res://Art/Fonts/::1706355276
+folkard_.ttf::FontFile::6820263201775343101::1706355268::1706355276::1::::<><>::
+::res://Scenes/::1706358176
+quiz.gd::GDScript::-1::1706358176::0::1::::<>Node2D<>::
+quiz.tscn::PackedScene::6959552074853554295::1706357582::0::1::::<><>::res://Scenes/quiz.gd<>uid://c4f10dxh3ir54::::res://Art/Fonts/folkard_.ttf
+::res://Scripts/::1706312989

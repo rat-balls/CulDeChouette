@@ -1,0 +1,8 @@
+[gd_resource type="JSON" format=3 uid="uid://bse0a6ygu72xh"]
+
+[resource]
+data = {
+"★": {
+"La Grelottine": "rules"
+}
+}
